@@ -11,7 +11,8 @@
 angular
   .module('humanoApp', [
     'ngResource',
-    'ngRoute'
+    'ngRoute',
+    'angularVideoBg'
   ])
   .config(function ($routeProvider) {
     $routeProvider
@@ -29,3 +30,10 @@ angular
         redirectTo: '/'
       });
   });
+angular.module('humanoApp').controller('VideoCtrl', function($scope) {
+  $scope.video = {
+    id: '2x113QS0Vls'
+  };
+  // create a mute and unmute button
+  // test on mobile
+});
