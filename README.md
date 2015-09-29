@@ -7,6 +7,8 @@ version 0.12.1.
 
 Simple one page site showing social media links and a spotify player with a video background
 
+[humanomusic.com](https://humanomusic.com)
+
 ### Site made with Angularjs
 
   * First app using Angular
