@@ -26,6 +26,7 @@ module.exports = function(config) {
       'bower_components/angular/angular.js',
       'bower_components/angular-resource/angular-resource.js',
       'bower_components/angular-route/angular-route.js',
+      'bower_components/angular-video-bg/angular-video-bg.min.js',
       'bower_components/bootstrap/dist/js/bootstrap.js',
       'bower_components/angular-mocks/angular-mocks.js',
       // endbower
