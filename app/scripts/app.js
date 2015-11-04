@@ -10,6 +10,7 @@
  */
 angular
   .module('humanoApp', [
+    'ngResource',
     'ngRoute',
     'angularVideoBg'
   ])
@@ -24,7 +25,7 @@ angular
   });
 angular.module('humanoApp').controller('VideoCtrl', function($scope) {
   $scope.video = {
-    id: 'seqzSKbxgME'
+    id: '2x113QS0Vls'
   };
   // create a mute and unmute button
   // test on mobile

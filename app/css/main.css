@@ -3,10 +3,27 @@ body, html {
   height: 100%;
 }
 
+.wrap {
+  background: #000;
+  color: #fff;
+}
+
+.wrap, .humano-bg-wrap, .fotos {
+  min-height: 100%;
+}
+
+.wrap a {
+  color: #fff;
+}
+
+.container {
+  overflow:auto;
+  padding-bottom: 40px;
+}
 
 /* Video background styles */
 .humano-bg-wrap {
-  height:100%;
+  height: 100vh;
   left:0%;
   overflow: hidden;
   position: absolute;
@@ -14,21 +31,25 @@ body, html {
   width:100%;
 }
 
-.humano-main {
-  color: #fff;
-  padding: 5% 5% 0 0;
-}
-
-.humano-main a {
-  color: #fff;
+/* Sidebar styles */
+.social-media {
+  padding: 10% 0 0 0;
+  text-align: center;
 }
 
 .social-media li {
   margin: 5% 0;
 }
 
-.footer .col-xs-12 {
-  margin: 0 auto;
-  text-align: center;
-}
+/* Image Gallery Styles */
+
+
+/* Footer styles */
+footer {
+  clear: both;
+  color: #ccc;
+  height: 40px;
+  margin-top: -40px;
+  position: relative; 
+} 
 

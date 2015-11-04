@@ -1,0 +1,34 @@
+/* Roz Styles */
+body, html {
+  height: 100%;
+}
+
+
+/* Video background styles */
+.humano-bg-wrap {
+  height:100%;
+  left:0%;
+  overflow: hidden;
+  position: absolute;
+  top:0%;
+  width:100%;
+}
+
+.humano-main {
+  color: #fff;
+  padding: 5% 5% 0 0;
+}
+
+.humano-main a {
+  color: #fff;
+}
+
+.social-media li {
+  margin: 5% 0;
+}
+
+.footer .col-xs-12 {
+  margin: 0 auto;
+  text-align: center;
+}
+
