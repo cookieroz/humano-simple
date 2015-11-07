@@ -14,10 +14,11 @@ describe('Controller: VideoCtrl', function () {
     VideoCtrl = $controller('VideoCtrl', {
       $scope: scope
       // place here mocked dependencies
+      // 
     });
   }));
 
-  it('should attach a list of awesomeThings to the scope', function () {
-    expect(VideoCtrl.awesomeThings.length).toBe(3);
+  it('video id', function () {
+    expect(scope.video.id).toEqual("seqzSKbxgME");
   });
 });

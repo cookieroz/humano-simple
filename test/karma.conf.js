@@ -28,11 +28,12 @@ module.exports = function(config) {
       'bower_components/angular-route/angular-route.js',
       'bower_components/angular-video-bg/angular-video-bg.min.js',
       'bower_components/bootstrap/dist/js/bootstrap.js',
+      'bower_components/simpleImageGallery/js/fblindSimpleImageGallery.js',
       'bower_components/angular-mocks/angular-mocks.js',
       // endbower
-      "app/scripts/**/*.js",
-      "test/mock/**/*.js",
-      "test/spec/**/*.js"
+      "app/js/*.js",
+      // "test/mock/**/*.js",
+      // "test/spec/**/*.js"
     ],
 
     // list of files / patterns to exclude
@@ -40,7 +41,7 @@ module.exports = function(config) {
     ],
 
     // web server port
-    port: 8080,
+    port: 9999,
 
     // Start these browsers, currently available:
     // - Chrome
