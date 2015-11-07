@@ -13,12 +13,10 @@ describe('Controller: VideoCtrl', function () {
     scope = $rootScope.$new();
     VideoCtrl = $controller('VideoCtrl', {
       $scope: scope
-      // place here mocked dependencies
-      // 
     });
   }));
 
-  it('video id', function () {
-    expect(scope.video.id).toEqual("seqzSKbxgME");
+  it('should have humano youtube id', function () {
+    expect(scope.video.id).toBe('seqzSKbxgME');
   });
 });
