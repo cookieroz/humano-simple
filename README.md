@@ -1,19 +1,12 @@
-# humanomusic.com
+# humano
 
 This project is generated with [yo angular generator](https://github.com/yeoman/generator-angular)
-version 0.12.1.
+version 0.11.1.
 
-## Single page app for Humano
+## Build & development
 
-Simple one page site showing social media links and a spotify player with a video background
+Run `grunt` for building and `grunt serve` for preview.
 
-[humanomusic.com](https://humanomusic.com)
+## Testing
 
-### Site made with Angularjs
-
-  * First app using Angular
-  * Using angular-video-bg for the background video
-  * Very Simple
-
-I plan on making updates to the site in the future. 
-
+Running `grunt test` will run the unit tests with karma.

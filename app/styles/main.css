@@ -1,12 +1,54 @@
 /* Roz Styles */
+/* 
+  Yellow color - f8c301 
+  Light Blue - 92c7cd
+*/
+
+/* General Styles */
 body, html {
   height: 100%;
 }
 
+.wrap {
+  background: #000;
+  color: #fff;
+}
+
+.wrap, .humano-bg-wrap, .fotos {
+  min-height: 100%;
+}
+
+.wrap a, 
+.wrap a:active,
+.wrap a:visited,
+footer a, 
+footer a:active,
+footer a:visited  {
+  color: #f8c301;
+}
+
+.wrap a:hover,
+footer a:hover {
+  color: #92c7cd;
+  text-decoration: none;
+}
+
+.container {
+  overflow:auto;
+  padding-bottom: 40px;
+}
+
+/* Header styles */
+header h3 {
+  font-weight: 200;
+  letter-spacing: 5px;
+  text-align: center;
+  text-transform: uppercase;
+}
 
 /* Video background styles */
 .humano-bg-wrap {
-  height:100%;
+  height: 100vh;
   left:0%;
   overflow: hidden;
   position: absolute;
@@ -14,21 +56,40 @@ body, html {
   width:100%;
 }
 
-.humano-main {
-  color: #fff;
-  padding: 5% 5% 0 0;
+/* From - http://slicejack.com/creating-a-fullscreen-html5-video-background-with-css/ */
+@media (min-aspect-ratio: 16/9) {
+  .humano-bg-wrap {
+    height: 300%;
+    top: -100%;
+  }
 }
 
-.humano-main a {
-  color: #fff;
+@media (max-aspect-ratio: 16/9) {
+  .humano-bg-wrap {
+    width: 300%;
+    left: -100%;
+  }
+}
+
+/* Sidebar styles */
+.social-media {
+  padding: 50% 0 0 0;
+  text-align: center;
 }
 
 .social-media li {
   margin: 5% 0;
 }
 
-.footer .col-xs-12 {
-  margin: 0 auto;
-  text-align: center;
-}
+/* Image Gallery Styles */
+
+
+/* Footer styles */
+footer {
+  clear: both;
+  color: #ccc;
+  height: 40px;
+  margin-top: -40px;
+  position: relative; 
+} 
 
